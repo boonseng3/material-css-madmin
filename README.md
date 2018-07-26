@@ -16,3 +16,5 @@ The page consist of the following components:
     6.  Recent posts
     7.  Todos
     8.  Footer
+    9.  Floating Action Button
+    10. Add Post Modal
