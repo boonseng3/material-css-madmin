@@ -10,3 +10,5 @@ The page consist of the following components:
 
     1.  Navigation bar
     2.  Side Navigation for small devices
+    3.  Stats (Counter)
+    4.  Preloader
