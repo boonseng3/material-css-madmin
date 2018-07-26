@@ -27,3 +27,10 @@ The page consist of the following components:
     2.  Side Navigation for small devices
     3.  Posts
     4.  Pagination
+
+1.  categories.html
+
+    1.  Navigation bar
+    2.  Side Navigation for small devices
+    3.  Categories
+    4.  Pagination
