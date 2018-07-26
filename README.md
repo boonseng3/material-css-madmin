@@ -20,3 +20,10 @@ The page consist of the following components:
     10. Add Post Modal
     11. Add Category Modal
     12. Add User Modal
+
+1.  posts.html
+
+    1.  Navigation bar
+    2.  Side Navigation for small devices
+    3.  Posts
+    4.  Pagination
