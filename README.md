@@ -50,6 +50,12 @@ The page consist of the following components:
     4.  Pagination
 
 1.  login.html
+
     1.  Navigation bar
     2.  Login
+    3.  Footer
+
+1.  details.html
+    1.  Navigation bar
+    2.  Post Details
     3.  Footer
