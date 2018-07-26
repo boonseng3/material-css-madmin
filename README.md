@@ -13,3 +13,6 @@ The page consist of the following components:
     3.  Stats (Counter)
     4.  Preloader
     5.  Chart & Comments
+    6.  Recent posts
+    7.  Todos
+    8.  Footer
