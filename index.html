@@ -321,6 +321,48 @@
     </div>
   </div>
 
+  <!-- Add Category Modal -->
+  <div id="category-modal" class="modal">
+    <div class="modal-content">
+      <h4>Add Category</h4>
+      <form action="">
+        <div class="input-field">
+          <input type="text" id="category">
+          <label for="category">Title</label>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+        </div>
+    </div>
+  </div>
+
+  <!-- Add User Modal -->
+  <div id="user-modal" class="modal">
+    <div class="modal-content">
+      <h4>Add User</h4>
+      <form action="">
+        <div class="input-field">
+          <input type="text" id="name">
+          <label for="name">Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password2">
+          <label for="password2">Confirm Password</label>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close btn blue white-text">Submit</a>
+        </div>
+    </div>
+  </div>
+
   <!-- Section: Preloader -->
   <div class="preloader-wrapper big active loader">
     <div class="spinner-layer spinner-blue-only">
@@ -339,6 +381,7 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="https://cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
   <script src="js/chart.js"></script>
   <script>
     // Hide Sections
@@ -407,6 +450,8 @@
           $(this).parent().parent().remove();
           Materialize.toast('Todo removed', 3000);
         });
+
+        CKEDITOR.replace('body');
 
       });
     }, 1000);

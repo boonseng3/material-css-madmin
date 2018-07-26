@@ -18,3 +18,5 @@ The page consist of the following components:
     8.  Footer
     9.  Floating Action Button
     10. Add Post Modal
+    11. Add Category Modal
+    12. Add User Modal
